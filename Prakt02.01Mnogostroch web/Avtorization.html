@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Регистрация</h1>
+        <form id="registration-form">
+            <div class="input-group">
+                <label for="lastname">Фамилия</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Фамилия" required>
+            </div>
+            <div class="input-group">
+                <label for="firstname">Имя</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Имя" required>
+            </div>
+            <div class="input-group">
+                <label for="birthdate">Дата рождения</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Почта</label>
+                <input type="email" id="email" name="email" placeholder="Почта" required>
+            </div>
+            <div class="input-group">
+                <label for="login">Логин</label>
+                <input type="text" id="login" name="login" placeholder="Логин" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" placeholder="Пароль" required>
+            </div>
+            <button type="submit" class="btn" id="submit-btn">Сохранить</button>
+            <button type="button" class="btn" id="back-btn">Назад</button>
+          
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
