@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif; /* Или любой другой шрифт по вашему выбору */
+    background-color: #f0f8ff; /* Светло-голубой фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.search-container {
+    background-color: #e0f2f7; /* Еще более светлый оттенок голубого */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Небольшая тень */
+    text-align: center; /* Центрирование текста */
+}
+
+label {
+    display: block; /* Размещение метки на отдельной строке */
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Чтобы padding не увеличивал ширину */
+}
+
+button {
+    background-color: #add8e6; /* Светло-голубой цвет кнопки */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
